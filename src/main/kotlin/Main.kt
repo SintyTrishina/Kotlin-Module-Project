@@ -1,3 +1,6 @@
 fun main(args: Array<String>) {
-    println("Hello World!")
+
+    val archives = mutableListOf<Archive>()
+    val app = App(archives, "архив")
+    app.menu()
 }
